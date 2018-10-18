@@ -51,8 +51,8 @@ NSString* const kAPPBackgroundEventDeactivate = @"deactivate";
 - (void) pluginInitialize
 {
     enabled = NO;
-    [self configureAudioPlayer];
-    [self configureAudioSession];
+    // [self configureAudioPlayer];
+    // [self configureAudioSession];
     [self observeLifeCycle];
 }
 
